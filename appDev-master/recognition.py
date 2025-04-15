@@ -13,7 +13,7 @@ from kivy.uix.button import Button
 from kivy.core.window import Window
 from kivy.metrics import dp
 from tensorflow.keras.models import load_model
-
+#gjyugyug
 # Load model and class indices
 model = load_model('fruit_recognition_model.keras')
 with open('class_indices.json', 'r') as f:
